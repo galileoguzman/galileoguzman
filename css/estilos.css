@@ -37,9 +37,8 @@ aside li img{
 footer{
 	background: #0e8dc4 url(images/back-footer1.png) center;
 	bottom: 0;
-	height: 150px;
+	height: 100px;
 	margin: 0 auto;
-	position: fixed;
 	width: 100%;
 }
 img{
@@ -86,15 +85,18 @@ header h1 span{
 }
 #menu ul li{
 	/*Gradient*/
-	background: #bcbcbc; /* Old browsers */
-	background: -moz-linear-gradient(top,  #bcbcbc 0%, #bcbcbc 69%, #f9f9f9 100%, #dee2e5 100%); /* FF3.6+ */
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#bcbcbc), color-stop(69%,#bcbcbc), color-stop(100%,#f9f9f9), color-stop(100%,#dee2e5)); /* Chrome,Safari4+ */
-	background: -webkit-linear-gradient(top,  #bcbcbc 0%,#bcbcbc 69%,#f9f9f9 100%,#dee2e5 100%); /* Chrome10+,Safari5.1+ */
-	background: -o-linear-gradient(top,  #bcbcbc 0%,#bcbcbc 69%,#f9f9f9 100%,#dee2e5 100%); /* Opera 11.10+ */
-	background: -ms-linear-gradient(top,  #bcbcbc 0%,#bcbcbc 69%,#f9f9f9 100%,#dee2e5 100%); /* IE10+ */
-	background: linear-gradient(to bottom,  #bcbcbc 0%,#bcbcbc 69%,#f9f9f9 100%,#dee2e5 100%); /* W3C */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bcbcbc', endColorstr='#dee2e5',GradientType=0 ); /* IE6-9 */
+	/*
+	background: #bcbcbc;
+	background: -moz-linear-gradient(top,  #bcbcbc 0%, #bcbcbc 69%, #f9f9f9 100%, #dee2e5 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#bcbcbc), color-stop(69%,#bcbcbc), color-stop(100%,#f9f9f9), color-stop(100%,#dee2e5));
+	background: -webkit-linear-gradient(top,  #bcbcbc 0%,#bcbcbc 69%,#f9f9f9 100%,#dee2e5 100%);
+	background: -o-linear-gradient(top,  #bcbcbc 0%,#bcbcbc 69%,#f9f9f9 100%,#dee2e5 100%);
+	background: -ms-linear-gradient(top,  #bcbcbc 0%,#bcbcbc 69%,#f9f9f9 100%,#dee2e5 100%);
+	background: linear-gradient(to bottom,  #bcbcbc 0%,#bcbcbc 69%,#f9f9f9 100%,#dee2e5 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bcbcbc', endColorstr='#dee2e5',GradientType=0 ); */
 	
+	background: #f5f4f2;
+	border: #b2b1b1 1px solid;
 	border-radius: 10px;
 	list-style: none;
 	margin: 1em;
@@ -112,4 +114,7 @@ header h1 span{
 #wrapper{
 	margin: 0 auto;
 	width: 90%;
+}
+.knowledge{
+	background: #09c2f7;
 }

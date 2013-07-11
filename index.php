@@ -5,7 +5,8 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"/>
 	<title>Galileo Guzmán</title>
 	<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-	<script type="text/javascript" src="prefix.min.js"></script>
+	<script type="text/javascript" src="js/prefixfree.min.js"></script>
+	<script type="text/javascript" src="js/jquery.galileoguzman.js"></script>
 
 	<link rel="stylesheet" type="text/css" href="css/normalize.css">
 	<link rel="stylesheet" type="text/css" href="css/estilos.css">
@@ -25,7 +26,7 @@
 	<section id="wrapper">
 		<section id="avatar">
 			<figure>
-				<img src="images/galileoguzman.jpg" alt="galileoguzman"/>
+				<img id="galileo" src="images/galileoguzman.jpg" alt="galileoguzman" />
 			</figure>
 		</section>
 		<nav id="menu">
